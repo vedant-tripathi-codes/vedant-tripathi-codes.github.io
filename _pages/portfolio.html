@@ -1,14 +1,85 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects & Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<p>Below are my key projects and research work. Click on the project titles to view detailed reports.</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<h2>Technical Projects</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h3 class="archive__item-title" itemprop="headline">
+      <a href="/files/Vedant_resume.pdf" rel="permalink">Detection of Fruit Diseases via Object Detection Techniques</a>
+    </h3>
+    <p class="page__meta">
+      <i class="fa fa-calendar" aria-hidden="true"></i> June 2021 - July 2021 | 
+      <i class="fa fa-user" aria-hidden="true"></i> Supervised by Dr. Dhiraj Sangwan
+    </p>
+    <p class="archive__item-excerpt" itemprop="description">
+      Machine Learning project for agricultural waste reduction using CycleGAN and disease detection models. 
+      Created annotated datasets and implemented advanced ML techniques to reduce industrial-scale food waste.
+    </p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h3 class="archive__item-title" itemprop="headline">
+      <a href="/files/Vedant_resume.pdf" rel="permalink">INWEON GRAMS - Agricultural Market Intelligence Platform</a>
+    </h3>
+    <p class="page__meta">
+      <i class="fa fa-calendar" aria-hidden="true"></i> June 2021 - July 2021 | 
+      <i class="fa fa-code" aria-hidden="true"></i> Django Framework
+    </p>
+    <p class="archive__item-excerpt" itemprop="description">
+      Django-powered backend with ML integration for grain quality analysis and market price optimization. 
+      Alleviated price disparities in farmers' markets through intelligent data analysis.
+    </p>
+  </article>
+</div>
+
+<h2>Research Projects</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h3 class="archive__item-title" itemprop="headline">
+      <a href="/cv/" rel="permalink">Electronic Band Structure Study of Perovskite Materials</a>
+    </h3>
+    <p class="page__meta">
+      <i class="fa fa-calendar" aria-hidden="true"></i> August 2023 - December 2023 | 
+      <i class="fa fa-user" aria-hidden="true"></i> Supervised by Dr. Debashis Bandyopadhyay
+    </p>
+    <p class="archive__item-excerpt" itemprop="description">
+      Thesis research using Density Functional Theory (DFT) for LaGaO3 electronic parameter analysis. 
+      Computational physics research contributing to solid-state electronics and clean energy applications.
+    </p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h3 class="archive__item-title" itemprop="headline">
+      <a href="/cv/" rel="permalink">Application of AI in Wireless Communications</a>
+    </h3>
+    <p class="page__meta">
+      <i class="fa fa-calendar" aria-hidden="true"></i> August 2022 - December 2022 | 
+      <i class="fa fa-user" aria-hidden="true"></i> Supervised by Dr. Sandeep Joshi
+    </p>
+    <p class="archive__item-excerpt" itemprop="description">
+      Literature review analyzing Deep CNNs and Conditional GANs for channel estimation in wireless networks. 
+      Proposed transfer learning approaches for site-specific channel modeling.
+    </p>
+  </article>
+</div>
+
+<hr style="margin: 2em 0;">
+
+<p><strong>Note:</strong> Detailed project reports are currently being prepared. In the meantime, you can find project summaries and additional information in my <a href="/cv/">CV</a>.</p>
+
+<p><em>To replace the CV links with actual PDF reports:</em> Upload your project report PDFs to the <code>/files/</code> directory and update the links accordingly.</p>
 
